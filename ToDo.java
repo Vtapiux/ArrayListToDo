@@ -1,7 +1,7 @@
 class ToDo {
     //Attributes
-    String task;
-    boolean status;
+    private String task;
+    private boolean status;
 
     //Constructor
     public ToDo(String task){ 
