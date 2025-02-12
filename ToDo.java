@@ -1,12 +1,15 @@
 class ToDo {
+    //Attributes
     String task;
     boolean status;
 
-    public ToDo(String task){
+    //Constructor
+    public ToDo(String task){ 
         this.task = task;
         this.status = false;
     }
 
+    //Methods
     public void setTask(String task){
         this.task = task;
     }
@@ -33,6 +36,6 @@ class ToDo {
 
     @Override
     public String toString() {
-        return "Task: " + task + "\nStatus: " + status + "\n";
+        return "Task: " + task + "\nStatus: " + status + "\n"; //Prints the whole information of the task
     }
 }
